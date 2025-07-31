@@ -26,7 +26,7 @@ install_AWS_CLI() {
 
 check_AWS_CLI() {
 	
-	if command -v aws > /dev/null ; then
+	if which aws > /dev/null ; then
 	       echo "AWS CLI Aready Installed Successfully !"
 	else
 		echo "AWS CLI not found, please Install the AWS CLI"

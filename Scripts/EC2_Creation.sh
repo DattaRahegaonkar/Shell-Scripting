@@ -53,7 +53,6 @@ create_ec2_instance() {
 
 	
 main() {
-    check_awscli || install_awscli
 
     echo "Creating EC2 instance..."
 
